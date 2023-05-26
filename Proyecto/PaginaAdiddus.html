@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cuerpo de la pagina</title>
+</head>
+<header>
+  <nav>
+
+    <a href="#inicio">Inicio</a><br>
+
+    <a href="#productos">Productos</a><br>
+
+    <a href="#carrito">Carrito</a><br>
+
+    <a href="#contacto">Contacto</a><br>
+
+  </nav>
+</header>
+
+<!--//////////////////////////////////Productos///////////////////////////////////////////-->
+
+<body bgcolor="E4EAD6">
+  <section id="inicio">
+    <h2>Bienvenid@ a nuestra tienda de ropa UNISEX</h2>
+    <p>Aquí encontrarás una amplia variedad de ropa para
+      todas las edades y estilos.</p>
+    <p>¡Descubre nuestras últimas tendencias!</p>
+    <a href="Productos.html" target="contenido">Ver productos</a>
+  </section>
+
+
+  <section id="productos">
+    <br>
+    <h2>Productos</h2>
+    <ul>
+      <center>
+        <img src="Imagenes/PantalonBA.jpg" width="250 px" height="250 px" alt="Producto 1">
+        <h3>Pantalon Marca Bambas Adiddus</h3>
+        <p>Pantalon finamente bordado hecho de seda gusano de la epoca del mesozoico </p>
+        <p>Precio: S/60.00</p>
+        <a href="#carrito">Agregar al carrito</a>
+      </center>
+      </br>
+      <br>
+      <center>
+        <img src="Imagenes/ZapatillasBA.jpg" width="250 px" height="250 px" alt="Producto 2">
+        <h3>Zapatillas Estrella N/B Bambas Adiddus</h3>
+        <p>Zapatillas finamente bordado importado de vietnam por cristiano ronaldo</p>
+        <p>Precio: S/90.00</p>
+        <a href="#carrito">Agregar al carrito</a>
+      </center>
+      </br>
+      <br>
+      <center>
+        <img src="Imagenes/ShortBA.jpg" width="250 px" height="250 px" alt="Producto 3">
+        <h3>Short Marca Bambas Adiddus</h3>
+        <p>Short de deporte colaboracion con Burberritos EDICION LIMITADA </p>
+        <p>Precio: S/40.00</p>
+        <a href="#carrito">Agregar al carrito</a>
+      </center>
+      </br>
+
+    </ul>
+  </section>
+  <section id="carrito">
+    <h2>Carrito de compras</h2>
+    <ul>
+    </ul>
+    <p>Total: S/XX.XX</p>
+    <a href="#productos">Continuar comprando</a><br>
+    <br>
+    <a href="#contacto">Finalizar compra</a><br>
+  </section>
+</body>
+<!--//////////////////////////////////Contacto///////////////////////////////////////////-->
+
+<footer style="background-color: #CFD8B7;">
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>Para consultas o comentarios, por favor contáctanos a través del siguiente formulario:</p>
+    <br>
+    <form>
+      <a href="tel:+51912345678"> - Número de la empresa - </a>
+    </form>
+    </br>
+  </section>
+
+  <form method="get" action="enviar" enctype="text/plain">
+  </form>
+  <form>
+    <b> Nombres: </b>
+    <input type="text" name="Nombres" value="" size="25" maxlength="25">
+    <br>
+    <br>
+    <b> Apellidos: </b>
+    <input type="text" name="Apellidos" value="" size="25" maxlength="25">
+    </br>
+    </br>
+    <b> Sexo: </b>
+    <input type="radio" name="hombre"> hombre
+    <input type="radio" name="hombre"> Mujer
+    <br>
+    <br>
+    <b> Correo:</b>
+    <input type="texto" name="correo" value="" size="25" maxlength="30">
+    <select name="tipo de correo" size="1">
+      <option value="@hotmail.com"> @hotmail.com </option>
+      <option value="@gmail.com"> @gmail.com </option>
+      <option value="@outlook.com"> @outlook.com </option>
+    </select>
+    <br>
+    <br>
+    <b> Descripción: </b>
+    <textarea name="palabras" rows="10" cols="70"></textarea>
+    </br>
+    </br>
+    <input type="checkbox" name="deseo recibir infomración" value="yes" checked /> Deseo recibir información sobre
+    novedades y ofertas
+    <br>
+    <br>
+    <input type="checkbox" name="declaro haber leído" value="yes"> Declaro haber leído y aceptar las condíciones
+    generales del programa y la normativa sobre protección de datos
+    </br>
+    </br>
+    <input type="submit" name="remitente">
+  </form>
+  <br>
+  <footer style="background-color: #B5C099;">
+    <a href="Nosotros.html" target="contenido">Acerca de nostros</a>
+    <p>© 2023 Derechos Reservados - <em> La tienda más llamativa de todo cono sur.</em></p>
+  </footer>
+</footer>
+</body>
+
+</html>
